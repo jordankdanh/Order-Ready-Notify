@@ -1,0 +1,340 @@
+{
+  "CustomerInfo": [
+    {
+      "customerID": 0,
+      "name": "",
+      "phone": "",
+      "addressline": "",
+      "city": "",
+      "state": "",
+      "zip code": ""
+    },
+    {
+      "customerID": 1,
+      "name": "John Doe",
+      "phone": "123-456-7890",
+      "addressline": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip code": "12345"
+    },
+    {
+      "customerID": 2,
+      "name": "Jane Smith",
+      "phone": "987-654-3210",
+      "addressline": "456 Elm St",
+      "city": "Another City",
+      "state": "NY",
+      "zip code": "54321"
+    },
+    {
+      "customerID": 3,
+      "name": "Bob Johnson",
+      "phone": "555-555-5555",
+      "addressline": "789 Oak St",
+      "city": "Smallville",
+      "state": "TX",
+      "zip code": "67890"
+    },
+    {
+      "customerID": 4,
+      "name": "Alice Brown",
+      "phone": "111-222-3333",
+      "addressline": "101 Pine St",
+      "city": "Villageville",
+      "state": "OH",
+      "zip code": "54321"
+    },
+    {
+      "customerID": 5,
+      "name": "Charlie Wilson",
+      "phone": "777-888-9999",
+      "addressline": "555 Cedar St",
+      "city": "Townsville",
+      "state": "FL",
+      "zip code": "98765"
+    },
+    {
+      "customerID": 6,
+      "name": "Eva Martinez",
+      "phone": "333-444-5555",
+      "addressline": "222 Oak St",
+      "city": "Sunnydale",
+      "state": "CA",
+      "zip code": "54321"
+    },
+    {
+      "customerID": 7,
+      "name": "David White",
+      "phone": "999-888-7777",
+      "addressline": "333 Birch St",
+      "city": "Hillside",
+      "state": "NJ",
+      "zip code": "12345"
+    },
+    {
+      "customerID": 8,
+      "name": "Fiona Green",
+      "phone": "444-555-6666",
+      "addressline": "777 Willow St",
+      "city": "Meadowville",
+      "state": "PA",
+      "zip code": "67890"
+    },
+    {
+      "customerID": 9,
+      "name": "George Adams",
+      "phone": "666-555-4444",
+      "addressline": "444 Elm St",
+      "city": "Maplewood",
+      "state": "NY",
+      "zip code": "12345"
+    },
+    {
+      "customerID": 10,
+      "name": "Helen Thomas",
+      "phone": "222-333-4444",
+      "addressline": "888 Oak St",
+      "city": "Riverside",
+      "state": "CA",
+      "zip code": "54321"
+    }
+  ],
+  "Products": [
+    {
+      "productID": "MF",
+      "name": "Fine Masa Bag 1LB",
+      "price": 0.70,
+      "description": "1LB of fine tortilla dough. Sold by the lb."
+    },
+    {
+      "productID": "MC",
+      "name": "Course Masa Bag 1LB",
+      "price": 0.90,
+      "description": "1LB of coarse tortilla dough. Sold by the lb."
+    },
+    {
+      "productID": "TL",
+      "name": "Box of Large Tortilla",
+      "price": 24.00,
+      "description": "A box of large tortillas containing 6 individual 80 count packs"
+    },
+    {
+      "productID": "TR",
+      "name": "Box of Regular Tortilla",
+      "price": 26.00,
+      "description": "A box of regular tortillas containing 6 individual 80 count packs"
+    },
+    {
+      "productID": "TC1",
+      "name": "Box of Tortilla Tacos Size 1",
+      "price": 20.00,
+      "description": "A box of small tortillas size 1 containing 10 individual 70 ct packs"
+    },
+    {
+      "productID": "TC2",
+      "name": "Box of Tortilla Tacos Size 2",
+      "price": 20.00,
+      "description": "A box of small tortillas size 2 containing 10 individual 70 ct packs"
+    },
+    {
+      "productID": "TC3",
+      "name": "Box of Tortilla Tacos Size 3",
+      "price": 22.00,
+      "description": "A box of small tortillas size 3 containing 10 individual 70 ct packs"
+    },
+    {
+      "productID": "TC4",
+      "name": "Box of Tortilla Tacos Size 4",
+      "price": 22.00,
+      "description": "A box of small tortillas size 4 containing 10 individual 70 ct packs"
+    }
+  ],
+  "Orders": [
+    {
+      "orderID": 0,
+      "customerID": 0,
+      "items": []
+    },
+    {
+      "orderID": 1,
+      "customerID": 1,
+      "items": [
+        {
+          "productID": "MF",
+          "quantity": 2
+        },
+        {
+          "productID": "TL",
+          "quantity": 1
+        },
+        {
+          "productID": "TC1",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "orderID": 2,
+      "customerID": 2,
+      "items": [
+        {
+          "productID": "MC",
+          "quantity": 5
+        },
+        {
+          "productID": "TR",
+          "quantity": 2
+        },
+        {
+          "productID": "TC2",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "orderID": 3,
+      "customerID": 3,
+      "items": [
+        {
+          "productID": "MF",
+          "quantity": 1
+        },
+        {
+          "productID": "MC",
+          "quantity": 2
+        },
+        {
+          "productID": "TC4",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "orderID": 4,
+      "customerID": 4,
+      "items": [
+        {
+          "productID": "TL",
+          "quantity": 3
+        },
+        {
+          "productID": "TR",
+          "quantity": 2
+        },
+        {
+          "productID": "TC3",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "orderID": 5,
+      "customerID": 5,
+      "items": [
+        {
+          "productID": "TC1",
+          "quantity": 5
+        },
+        {
+          "productID": "TC2",
+          "quantity": 2
+        },
+        {
+          "productID": "MC",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "orderID": 6,
+      "customerID": 6,
+      "items": [
+        {
+          "productID": "TC4",
+          "quantity": 4
+        },
+        {
+          "productID": "TR",
+          "quantity": 2
+        },
+        {
+          "productID": "MF",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "orderID": 7,
+      "customerID": 7,
+      "items": [
+        {
+          "productID": "TC1",
+          "quantity": 2
+        },
+        {
+          "productID": "MC",
+          "quantity": 3
+        },
+        {
+          "productID": "TL",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "orderID": 8,
+      "customerID": 8,
+      "items": [
+        {
+          "productID": "TR",
+          "quantity": 3
+        },
+        {
+          "productID": "TC2",
+          "quantity": 2
+        },
+        {
+          "productID": "TC3",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "orderID": 9,
+      "customerID": 9,
+      "items": [
+        {
+          "productID": "MC",
+          "quantity": 4
+        },
+        {
+          "productID": "MF",
+          "quantity": 2
+        },
+        {
+          "productID": "TC1",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "orderID": 10,
+      "customerID": 10,
+      "items": [
+        {
+          "productID": "TL",
+          "quantity": 2
+        },
+        {
+          "productID": "TC4",
+          "quantity": 3
+        },
+        {
+          "productID": "TR",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
